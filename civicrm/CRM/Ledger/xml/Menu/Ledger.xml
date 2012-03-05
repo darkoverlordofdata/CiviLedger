@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<menu>
+  <item>
+    <path>civicrm/ledger</path>
+    <title>Ledger Dashboard</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/account</path>
+    <title>Chart of Accounts</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item> 
+  
+  <item>
+    <path>civicrm/ledger/group/add</path>
+    <title>New Group</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item> 
+  
+  <item>
+    <path>civicrm/ledger/group/delete</path>
+    <title>Delete Group</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item> 
+  
+  <item>
+    <path>civicrm/ledger/group/edit</path>
+    <title>Edit Group</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item> 
+  
+  <item>
+    <path>civicrm/ledger/ledger/add</path>
+    <title>New Ledger</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item> 
+  
+  <item>
+    <path>civicrm/ledger/ledger/delete</path>
+    <title>Delete Ledger</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item> 
+  
+  <item>
+    <path>civicrm/ledger/ledger/edit</path>
+    <title>Edit Ledger</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item> 
+
+  <item>
+    <path>civicrm/ledger/entry/show/all</path>
+    <title>All Entries</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/entry/show/receipt</path>
+    <title>Receipt Entries</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+  
+  <item>
+    <path>civicrm/ledger/entry/add/receipt</path>
+    <title>New Receipt Entry</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+  
+  <item>
+    <path>civicrm/ledger/entry/delete/receipt</path>
+    <title>Delete Receipt Entry</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+  
+  <item>
+    <path>civicrm/ledger/entry/download/receipt</path>
+    <title>Download Receipt Entry</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/entry/edit/receipt</path>
+    <title>Edit Receipt Entry</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+  
+  <item>
+    <path>civicrm/ledger/entry/view/receipt</path>
+    <title>View Receipt Entry</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/entry/show/payment</path>
+    <title>Payment Entries</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+  
+  <item>
+    <path>civicrm/ledger/entry/add/payment</path>
+    <title>New Payment Entry</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+  
+  <item>
+    <path>civicrm/ledger/entry/delete/payment</path>
+    <title>Delete Payment Entry</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+  
+  <item>
+    <path>civicrm/ledger/entry/download/payment</path>
+    <title>Download Payment Entry</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/entry/edit/payment</path>
+    <title>Edit Payment Entry</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+  
+  <item>
+    <path>civicrm/ledger/entry/view/payment</path>
+    <title>View Payment Entry</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/entry/show/contra</path>
+    <title>Contra Entries</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+  
+  <item>
+    <path>civicrm/ledger/entry/add/contra</path>
+    <title>New Contra Entry</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+  
+  <item>
+    <path>civicrm/ledger/entry/delete/contra</path>
+    <title>Delete Contra Entry</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+  
+  <item>
+    <path>civicrm/ledger/entry/download/contra</path>
+    <title>Download Contra Entry</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/entry/edit/contra</path>
+    <title>Edit Contra Entry</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+  
+  <item>
+    <path>civicrm/ledger/entry/view/contra</path>
+    <title>View Contra Entry</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/entry/show/journal</path>
+    <title>Journal Entries</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+  
+  <item>
+    <path>civicrm/ledger/entry/add/journal</path>
+    <title>New Journal Entry</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+  
+  <item>
+    <path>civicrm/ledger/entry/delete/journal</path>
+    <title>Delete Journal Entry</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+  
+  <item>
+    <path>civicrm/ledger/entry/download/journal</path>
+    <title>Download Journal Entry</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/entry/edit/journal</path>
+    <title>Edit Journal Entry</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+  
+  <item>
+    <path>civicrm/ledger/entry/view/journal</path>
+    <title>View Journal Entry</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/report</path>
+    <title>Reports</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/report/balancesheet</path>
+    <title>Balance Sheet</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/report/profitandloss</path>
+    <title>Profit and Loss Statement</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+  
+  <item>
+    <path>civicrm/ledger/report/trialbalance</path>
+    <title>Trial Balance</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/report/ledgerst</path>
+    <title>Ledger Statement</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+  
+  <item>
+    <path>civicrm/ledger/report/reconciliation</path>
+    <title>Reconciliation</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/setting</path>
+    <title>Settings</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/setting/account</path>
+    <title>Account Settings</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/setting/cf</path>
+    <title>Carry Forward Account</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/setting/email</path>
+    <title>Email Settings</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/setting/printer</path>
+    <title>Printer Settings</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/setting/backup</path>
+    <title>Download Backup</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/tag</path>
+    <title>Tags</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/tag/add</path>
+    <title>New Tag</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/tag/delete</path>
+    <title>Delete Tag</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/tag/edit</path>
+    <title>Edit Tag</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/setting/entrytypes</path>
+    <title>Entry Types</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/setting/entrytypes/add</path>
+    <title>New Entry Type</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/setting/entrytypes/delete</path>
+    <title>Delete Entry Type</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/setting/entrytypes/edit</path>
+    <title>Edit Entry Type</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/help</path>
+    <title>Help</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/admin</path>
+    <title>Administer Ledger</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/admin/create</path>
+    <title>Create Account</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/admin/manage</path>
+    <title>Manage Accounts</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/admin/manage/add</path>
+    <title>Add Account</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/admin/manage/delete</path>
+    <title>Delete Account</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/admin/manage/edit</path>
+    <title>Edit Account</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/admin/user</path>
+    <title>Manage Users</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/admin/user/add</path>
+    <title>Add User</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/admin/user/delete</path>
+    <title>Delete User</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+  
+  <item>
+    <path>civicrm/ledger/admin/user/edit</path>
+    <title>Edit User</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+    <item>
+    <path>civicrm/ledger/admin/calendar</path>
+    <title>Manage Calendar</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/admin/calendar/create</path>
+    <title>Create Calendar</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/admin/calendar/delete</path>
+    <title>Delete Calendar</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/admin/setting</path>
+    <title>General Settings</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/admin/status</path>
+    <title>Status Report</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/user/profile</path>
+    <title>User Profile</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/log</path>
+    <title>Logs</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+  <item>
+    <path>civicrm/ledger/log/clear</path>
+    <title>Clear Log</title>
+    <page_callback>CRM_Ledger_Page_Dispatch</page_callback>
+    <access_arguments>access CiviLedger</access_arguments>
+    <component>CiviLedger</component>
+  </item>
+
+ </menu>

@@ -1,0 +1,25 @@
+Dashboard
+Chart of Accounts
+Entries
+	All				entry/show/all
+	Receipt			entry/show/receipt
+	Payment			entry/show/payment
+	Journal			entry/show/journal
+Reports
+Settings
+Admin
+Help
+
+INSERT INTO civicrm_navigation
+    (domain_id,label,name,url,permission,permission_operator,parent_id,is_active,has_separator,weight)
+VALUES    
+    (1,"Entries","Entries","","access CiviMember","OR",234,1,NULL,1),
+    (1,"All","All Entries","civicrm/ledger/entry/show/all&reset=1","access CiviMember","OR",257,1,NULL,1),
+    (1,"Receipts","Receipt Entries","civicrm/ledger/entry/show/receipt&reset=1","access CiviMember","OR",257,1,NULL,1),
+    (1,"Payments","Payment Entries","civicrm/ledger/entry/show/payment&reset=1","access CiviMember","OR",257,1,NULL,1),
+    (1,"Journals","Journal Entries","civicrm/ledger/entry/show/journal&reset=1","access CiviMember","OR",257,1,NULL,1),
+    (1,"Contras","Contra Entries","civicrm/ledger/entry/show/contra&reset=1","access CiviMember","OR",257,1,NULL,1),
+    (1,"Reports","Reports","civicrm/ledger/report&reset=1","access CiviMember","OR",234,1,NULL,1),
+    (1,"Settings","Settings","civicrm/ledger/setting&reset=1","access CiviMember","OR",234,1,NULL,1),
+    (1,"Administer","Administer","civicrm/ledger/admin&reset=1","access CiviMember","OR",234,1,NULL,1),
+    (1,"Help","Help","civicrm/ledger/help&reset=1","access CiviMember","OR",234,1,NULL,1);

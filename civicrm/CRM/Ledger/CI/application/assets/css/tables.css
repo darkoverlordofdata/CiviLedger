@@ -1,0 +1,238 @@
+/******************************************************************************/
+/******************************* SIMPLE TABLE *********************************/
+/******************************************************************************/
+
+
+#main-content table  th {
+	color:#333;
+	background-color: #EEE;
+	border-width: 1px 0px 1px 0px;
+	border-top-color: gray;
+	border-bottom-color: gray;
+}
+#main-content  .simple-table {
+	font-size:14px;
+	border-collapse:collapse;
+	text-align:left;
+}
+
+#main-content  .simple-table th {
+	font-weight:normal;
+	color:#000000;
+	padding:5px 8px;
+	border-bottom:1px solid #999999;
+	border-top:1px solid #999999;
+	background-color:#EEEEEE;
+}
+
+#main-content  .simple-table td {
+	border-bottom:1px solid #BBBBBB;
+	color:#000000;
+	padding:8px 8px 8px 8px;
+}
+
+#main-content  .simple-table tr.tr-active {
+	background-color:#FFFFE6;
+}
+
+#main-content  .simple-table tr.tr-group td {
+	background-color:#FFFFE6;
+}
+
+#main-content  .simple-table tr.tr-total {
+	background-color:#FFFFE6;
+}
+
+#main-content  .simple-table a.red-link {
+	color:#FF0000;
+}
+
+#main-content  tr.total-area {
+	background-color: #F8F8F8;
+}
+
+/******************************************************************************/
+/****************************** ENTRY TABLE ***********************************/
+/******************************************************************************/
+
+#main-content  .entry-table {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size:14px;
+	border-collapse:collapse;
+	text-align:left;
+}
+
+#main-content  .entry-table th {
+	font-weight:normal;
+	color:#000000;
+	padding:5px 8px;
+	background-color:#EEEEEE;
+}
+
+#main-content  .entry-table td {
+	color:#000000;
+	padding:8px 8px 8px 8px;
+}
+
+#main-content  .entry-table tr.new-row {
+	background-color:#FFFFE0;
+}
+
+
+
+/******************************************************************************/
+/****************************** CUSTOM TABLES *********************************/
+/******************************************************************************/
+
+#main-content  .account-table td {
+	padding-right: 30px;
+}
+
+#main-content  .account-table .td-actions {
+	padding-right: 8px;
+}
+
+#main-content  .entry-view-table td {
+	padding-right: 30px;
+}
+
+#main-content .entry-view-table tr.entry-total {
+	background-color:#FFFFE0;
+}
+
+#main-content  .entry-view-table tr.entry-difference {
+	background-color:#FFE9E8;
+}
+
+#main-content  .trial-balance-table td {
+	padding-right: 20px;
+}
+                      
+/* balance sheet */
+#main-content  .balance-sheet-table {
+	border:1px solid #BBBBBB;	
+}
+
+#main-content  .balance-sheet-table td {
+	border:1px solid #EEEEEE;
+}
+
+#main-content  .balance-sheet-table tr.tr-group td {
+	background-color:#FFFFE6;
+}
+
+#main-content  .balance-sheet-total-table {
+	font-size:14px;
+	border-collapse:collapse;
+	text-align:left;	
+}
+
+#main-content  .balance-sheet-total-table td {
+	border-bottom:1px solid #FFFFFF;
+	color:#000000;
+	padding:8px 8px 8px 8px;
+}
+
+/* profit and loss */
+#main-content  .profit-loss-table {
+	border:1px solid #BBBBBB;	
+}
+
+#main-content  .profit-loss-table td {
+	border:1px solid #EEEEEE;	
+}
+
+#main-content  .profit-loss-table tr.tr-group td {
+	background-color:#FFFFE6;
+}
+
+#main-content  .profit-loss-total-table {
+	font-size:14px;
+	border-collapse:collapse;
+	text-align:left;	
+}
+
+#main-content  .profit-loss-total-table td {
+	border-bottom:1px solid #FFFFFF;
+	color:#000000;
+	padding:8px 8px 8px 8px;
+}
+
+#main-content  .dashboard-cashbank-table {
+	border-collapse: collapse;
+	text-align: left;
+}
+
+#main-content  .dashboard-cashbank-table td {
+	padding: 8px 8px 8px 20px;
+}
+
+#main-content  .dashboard-cashbank-table td a {
+	color: #000000;
+}
+
+#main-content  .dashboard-summary-table {
+	border-collapse: collapse;
+	text-align: left;
+}
+
+#main-content  .dashboard-summary-table td {
+	padding: 8px 8px 8px 20px;
+}
+
+#main-content  .dashboard-summary-table td a {
+	color: #000000;
+}
+
+#main-content  .dashboard-log-footer {
+	padding:10px;
+	border-top:1px solid #BBBBBB;
+}
+
+#main-content  .ledgerst-table td {
+
+}
+
+#main-content  .ledgerst-table .tr-balance {
+	font-weight:bold;
+}
+
+#main-content  .ledger-summary {
+	font-size:14px;
+	border-collapse: collapse;
+	text-align: left;
+	border: 1px solid #BBBBBB;
+	background-color:#FFFFCC;
+}
+
+#main-content  .ledger-summary tr {
+	border: 1px solid #BBBBBB;
+}
+
+#main-content  .ledger-summary td {
+	padding: 8px 8px 8px 8px;
+}
+
+#main-content  .reconciliation-table .tr-reconciled {
+	background-color:#FFFFE6;
+}
+
+#main-content  .reconciliation-summary {
+	font-size:14px;
+	border-collapse: collapse;
+	text-align: left;
+	border: 1px solid #BBBBBB;
+	background-color:#FFFFCC;
+}
+
+#main-content  .reconciliation-summary tr {
+	border: 1px solid #BBBBBB;
+}
+
+#main-content  .reconciliation-summary td {
+	padding: 8px 8px 8px 8px;
+}
+
+.manage-account-table td {
+	padding-right: 20px;
+}
