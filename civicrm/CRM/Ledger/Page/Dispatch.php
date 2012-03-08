@@ -92,7 +92,7 @@ class CRM_Ledger_Page_Dispatch extends CRM_Core_Page
         }
             
         $segments = $this->explode_segments($task);
-        require 'CRM/Ledger/CI/start.php';
+        require 'CRM/Ledger/CI/controller.php';
         /*
         $CI =& get_instance();
         if (stripos($task, "report/download") == 1) {

@@ -1,12 +1,33 @@
-<?php if (!defined('BASEPATH')) exit('No direct script access allowed');
-
+<?php
+/*
++--------------------------------------------------------------------+
+| CiviLedger version 0.1
++--------------------------------------------------------------------+
+| Copyright DarkOverlordOfData (c) 2012
++--------------------------------------------------------------------+
+|                                                                    |
+| This file is a part of CiviLedger.                                 |
+|                                                                    |
+| CiviLedger is free software; you can copy, modify, and distribute  |
+| it under the terms of the GNU General Public License Version 3     |
+|                                                                    |
++--------------------------------------------------------------------+
+*/
 /**
- * Startup:: a class that is loaded everytime the application is accessed
+ * 
+ * @package Ledger
+ * @copyright DarkOverlordOfData (c) 2012
+ * 
+ * Startup:: a class that is loaded every time the application is accessed
  *
  * Setup all the initialization routines that the application uses in this
- * class. It is autoloaded evertime the application is accessed.
+ * class. It is auto loaded every time the application is accessed.
+ *
  *
  */
+ // no direct access
+if ( ! defined('BASEPATH')) exit('No direct script access allowed');?>
+<?php
 
 class Startup
 {

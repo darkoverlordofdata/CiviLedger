@@ -33,7 +33,10 @@
  * 
  *
  */
-// no direct access
+ // no direct access
+if ( ! defined('BASEPATH')) exit('No direct script access allowed');?>
+<?php
+
 class FiscalCalendar {
 
     const FY_CAL = 0;       //  Unmodified calendar year     

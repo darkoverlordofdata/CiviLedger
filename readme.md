@@ -18,6 +18,7 @@ CiviLedger - Ledger component for CiviCRM
 * Role based access
 * Multiple accounts
 * Period/Year Close
+* Prior year and budget reporting
 * GWSPCA recomended reporting
 
 ---

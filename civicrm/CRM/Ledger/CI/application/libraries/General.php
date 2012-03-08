@@ -1,4 +1,31 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php
+/*
++--------------------------------------------------------------------+
+| CiviLedger version 0.1
++--------------------------------------------------------------------+
+| Copyright DarkOverlordOfData (c) 2012
++--------------------------------------------------------------------+
+|                                                                    |
+| This file is a part of CiviLedger.                                 |
+|                                                                    |
+| CiviLedger is free software; you can copy, modify, and distribute  |
+| it under the terms of the GNU General Public License Version 3     |
+|                                                                    |
++--------------------------------------------------------------------+
+*/
+/**
+ * 
+ * @package Ledger
+ * @copyright DarkOverlordOfData (c) 2012
+ * 
+ *  General class
+ * 
+ * 
+ *
+ */
+ // no direct access
+if ( ! defined('BASEPATH')) exit('No direct script access allowed');?>
+<?php
 
 class General {
 	var $error_messages = array();

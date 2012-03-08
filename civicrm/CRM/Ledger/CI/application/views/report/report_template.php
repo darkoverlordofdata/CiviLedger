@@ -34,7 +34,7 @@
 	<div id="print-report-period">
 		<span class="value">
 			Financial year<br />
-			<?php echo date_mysql_to_php_display($this->config->item('account_fy_start')); ?> - <?php echo date_mysql_to_php_display($this->config->item('account_fy_end')); ?>
+			<?php echo date_mysql_to_php_display($this->config->item('fy_start')); ?> - <?php echo date_mysql_to_php_display($this->config->item('fy_end')); ?>
 		</span>
 	</div>
 	<br />
